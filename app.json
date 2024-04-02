@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/list/list",
+    "pages/shop/shop"
+  ],
+  "tabBar": {
+    "color": "#747e83",
+    "selectedColor": "#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath":"pages/list/list",
+          "text":"购物",
+          "iconPath":"/assets/personal-active.png",
+          "selectedIconPath":"/assets/cate-active.png"
+        }
+      
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
