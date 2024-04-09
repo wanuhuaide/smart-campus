@@ -3,21 +3,29 @@
     "pages/index/index",
     "pages/cate/cate",
     "pages/list/list",
-    "pages/shop/shop"
+    "pages/shop/shop",
+    "pages/my/my"
   ],
   "tabBar": {
     "color": "#747e83",
     "selectedColor": "#3cc51f",
     "borderStyle":"black",
     "backgroundColor": "#ffffff",
-    "list": [
+    "list":[
       {
         "pagePath":"pages/list/list",
-          "text":"购物",
-          "iconPath":"/assets/personal-active.png",
-          "selectedIconPath":"/assets/cate-active.png"
-        }
-      
+          "text":"首页"
+        },
+      {
+        "pagePath":"pages/cate/cate",
+        "text":"应用"
+      },
+      {"pagePath": "pages/my/my",
+      "text": "第四"},
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "第五"
+      }
     ]
   },
   "window": {
