@@ -63,3 +63,8 @@
 <image src="../../imgs/messageimgs/5.png" mode=""/></view>
 </view>
 </view>
+<!--文字-->
+<view class="pushtitle">推荐应用</view>
+<view class="pushword">根据您最近浏览和办理应用为您推荐
+</view>
+<!--轮播图-->

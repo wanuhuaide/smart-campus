@@ -212,3 +212,28 @@ right: 0;
   left: 85rpx;
   top: 144rpx;
 }
+/**文字**/
+.pushtitle{
+  position:absolute;
+  left: 50rpx;
+top: 1300rpx;
+width: 160rpx;
+height: 25rpx;
+line-height: 25rpx;
+color: rgb(16,16,16);
+font-size: 28rpx;
+text-align: left;
+font-family: PingFangSC-medium;
+}
+.pushword{
+  position:absolute;
+  left: 50rpx;
+top: 1330rpx;
+width: 300rpx;
+height: 17rpx;
+line-height: 25rpx;
+color: rgb(121,121,121);
+font-size: 19rpx;
+text-align: left;
+font-family: PingFangSC-regular;
+}
