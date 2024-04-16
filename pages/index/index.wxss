@@ -1,4 +1,4 @@
-/**index.wxss**/
+/**大方框**/
 .daohang{
   width: 90%;
   margin: auto;
@@ -31,6 +31,7 @@
   border: 1px solid white;
   border-radius: 15rpx;
 }
+/**左右方框**/
 .flexbox{
   width: 98%;
   margin: auto;
@@ -38,6 +39,7 @@
   justify-content: space-around;
   margin-top: 30rpx;
 }
+/**按钮**/
 .flexitem{
   width: 100rpx;
   height: 100rpx;
@@ -47,7 +49,6 @@
   line-height: 70rpx;
   font-size: 25rpx;
 }
-
 .yellow{
   background-color: #f7ae5c;
 }
@@ -68,6 +69,7 @@
   height: 50rpx;
   margin-top: 25rpx;
 }
+/**左右方框**/
 .flexboxone{
   width: 90%;
  margin:220rpx auto;
@@ -132,6 +134,7 @@ color: white;
 .titletextright>view:nth-child(2){
   font-size: 22rpx;
 }
+/**通知**/
 .noticecircle{
   position: absolute;
   margin-top: -200rpx;
@@ -158,5 +161,54 @@ line-height: 9px;
 color: rgb(0, 0, 0);
 font-size: 20rpx;
 text-align: center;
-font-family: Arial-regular;
+}
+/**第二个大方框**/
+.daohangpart2{
+  top: -140rpx;
+  width: 90%;
+  margin: auto;
+  height: 300rpx;
+  position: relative;
+  color: #ffffff;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+  border-radius: 20rpx;
+}
+.daohangpart2 image{
+position: absolute;
+right: 0;
+  width: 47%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.daohangwordpart2{
+  position: absolute;
+  top: 40rpx;
+  left: 30rpx;
+  color: #a3a3a3;
+}
+.daohangwordonepart2{
+  font-size: 23rpx;
+  line-height: 28rpx;
+}
+.daohangtpart2{
+  font-weight: 900;
+  color: #101010;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 36rpx;
+}
+.daohangbpart2{
+  width: 100rpx;
+  color: white;
+  text-align: left;
+  font-size: 20rpx;
+  padding: 12rpx;
+  border-radius: 30rpx;
+  background: linear-gradient(92.1deg, rgba(63,189,245,1) 11.29%,rgba(132,227,223,1) 98.02%);
+}
+.daohangbpart2>image{
+  position:absolute;
+  height: 30rpx;
+  width: 30rpx;
+  left: 85rpx;
+  top: 144rpx;
 }
