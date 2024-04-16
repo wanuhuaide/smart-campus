@@ -29,3 +29,25 @@
 </view>
 </view>
 
+<view class="flexboxone">
+<view class="flexitemone">
+<image src="../../imgs/man.png" mode=""/>
+<view class="titletext">
+<view>待办事项</view>
+<view>我的代办事项</view>
+</view>
+</view>
+<view class="flexitemone">
+<image src="../../imgs/woman.png" mode=""/>
+<view class="titletextright">
+<view>待办指南</view>
+<view>待办指南汇总</view>
+</view>
+</view>
+</view>
+
+<view class="noticecircle">
+<image src="../../imgs/audio.svg" mode=""/>
+</view>
+<view class="noticeword">关于系统上线的运行时间</view>
+

@@ -44,15 +44,10 @@
   background-color: red;
   border-radius: 50%;
   text-align: center;
-  line-height: 78rpx;
+  line-height: 70rpx;
   font-size: 25rpx;
 }
-.flexitem image{
-  width: 50rpx;
-  height: 50rpx;
-  margin-top: 25rpx;
 
-}
 .yellow{
   background-color: #f7ae5c;
 }
@@ -67,4 +62,101 @@
 }
 .blue{
   background-color: #1e9dff;
+}
+.flexitem>image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 25rpx;
+}
+.flexboxone{
+  width: 90%;
+ margin:220rpx auto;
+display: flex;
+justify-content: space-between;
+}
+.flexitemone{
+  position: relative;
+}
+.flexitemone:nth-child(1){
+  width: 45%;
+  height: 200rpx;
+  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+  /* background-color: red; */
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+  border-bottom-right-radius: 15rpx;
+  border-bottom-left-radius: 15rpx;
+}
+.flexitemone:nth-child(1)>image{
+  width: 60%;
+  height: 86%;
+  position: absolute;
+  left: 0rpx;
+  bottom: 0rpx;
+}
+.flexitemone:nth-child(2){
+  width: 45%;
+  height: 200rpx;
+  background-image: linear-gradient(to right,#93f7da,#68d0e3);
+  /* background-color: red; */
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+  border-bottom-right-radius: 15rpx;
+  border-bottom-left-radius: 15rpx;
+}
+.flexitemone:nth-child(2)>image{
+  height: 95%;
+  width: 70%;
+  float: right;
+  position: absolute;
+  right: -10rpx;
+  top: 10rpx;
+}
+.titletext{
+  position: absolute;
+  top: 50rpx;
+  right: 30rpx;
+line-height: 35rpx;
+color: white;
+}
+.titletext>view:nth-child(2){
+  font-size: 22rpx;
+}
+.titletextright{
+  position: absolute;
+  top: 50rpx;
+  left: 20rpx;
+line-height: 35rpx;
+color: white;
+}
+.titletextright>view:nth-child(2){
+  font-size: 22rpx;
+}
+.noticecircle{
+  position: absolute;
+  margin-top: -200rpx;
+  margin-left: 35rpx;
+  width: 33rpx;
+  height: 33rpx;
+  background-color: #00ad7d;
+  border-radius: 50%;
+  line-height: 10rpx;
+}
+.noticecircle>image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 5rpx;
+  margin-top: 5rpx;
+}
+.noticeword{
+  position: absolute;
+  left: 40rpx;
+top: 905rpx;
+width: 300rpx;
+height: 27rpx;
+line-height: 9px;
+color: rgb(0, 0, 0);
+font-size: 20rpx;
+text-align: center;
+font-family: Arial-regular;
 }
