@@ -108,6 +108,44 @@
         </view>
         <!-- 导航栏 end -->
 
+<!-- 应用列表 -->
+<view class="appBox">
+            <view class="appBoxList">
+                <image src="/imgs/schoolList.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学校概况</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/map.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学校地图</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xiaofei.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">我的消费</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/email.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">电子邮件</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/tushu.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">图书借阅</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/jiangbei.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">获奖成果</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/hongqi.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">我的党建</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/shenpi.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">网上审批</view>
+            </view>
+        </view>
+        <!-- 应用列表 end -->
+
+       
         
 
         
