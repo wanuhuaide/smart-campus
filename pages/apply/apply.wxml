@@ -15,3 +15,27 @@
         </view>
     </view>
     <!-- 头部搜索栏 end -->
+
+    <view class="box">
+        <!-- 男生女生卡片 -->
+        <view class="twoCardBox">
+            <view class="card1">
+                <image id="cardImage1" src="/imgs/appgirl.png" mode="" style="width: 60px;height: 70px;" />
+                <view class="cardContent1">
+                    <text style="font-weight: 600;font-size: 14px;">待办事项
+                    </text>
+                    <text style="font-size: 10px;">我的待办事项</text>
+                </view>
+            </view>
+            <view class="card2">
+                <image id="cardImage2" src="/imgs/appboy.png" mode="" style="width: 80px;height: 70px;" />
+                <view class="cardContent2">
+                    <text style="font-weight: 600;font-size: 14px;">办事指南
+                    </text>
+                    <text style="font-size: 10px;">办事指南汇总</text>
+                </view>
+            </view>
+        </view>
+        <!-- 男生女生卡片 end -->
+
+       
