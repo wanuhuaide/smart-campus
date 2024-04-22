@@ -21,5 +21,9 @@
             <image src="/imgs/shualian.png" mode="" />
             <view class="otherLoginText">刷脸登录</view>
         </view>
+        <view class="bl" bindtap="goOneClickLogin">
+            <image src="/imgs/weibo.png" mode="" />
+            <view class="otherLoginText">一键登录</view>
+        </view>
       </view>
   </view>
