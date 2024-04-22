@@ -70,3 +70,6 @@
             </view>
         </view>
         <!-- 消息列表详情 end -->
+          <!-- 我的搜藏 -->
+          <view class="tuijianApp">我的收藏</view>
+        <!-- 我的搜藏 end -->
