@@ -1,1 +1,130 @@
 /* pages/message/message.wxss */
+.headBox {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #FEF7FF;
+}
+
+.headBoxTitle {
+  height: 44px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 44px;
+}
+
+.searchBox {
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #FEF7FF;
+}
+
+.searchBox image {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-left: 5px;
+}
+
+.searchBox input {
+  height: 25px;
+  float: left;
+  font-size: 12px;
+  width: 160px;
+  color: rgb(74, 75, 75);
+  margin-left: 8px;
+}
+
+.headBoxRight {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headBoxRight image {
+  width: 23px;
+  height: 23px;
+}
+.box {
+  width: 350px;
+  height: 488px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.mesListBox{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mesList{
+  width: 50px;
+  height: 70px;
+  text-align: center;
+}
+.mesList image{
+  width: 40px;
+  height: 40px;
+}
+.mesListText{
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+.mesDetailBox{
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.mesDetail{
+  width: 100%;
+  height: 60px;
+}
+.mesDetail image{
+  width: 25px;
+  height: 25px;
+  margin-top: 17.5px;
+  margin-left: 15px;
+  float: left;
+}
+.mesDetailContent{
+  width: 200px;
+  height: 60px;
+  float: left;
+  margin-left: 18px;
+}
+.title{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "宋体";
+  margin-top: 15px;
+}
+.title2{
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(134, 134, 130);
+}
+.time{
+  width: 20px;
+  font-size: 10px;
+  color: rgb(134, 134, 130);
+  float: left;
+  margin-left: 68px;
+  margin-top: 15px;
+}
