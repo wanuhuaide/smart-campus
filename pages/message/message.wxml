@@ -40,7 +40,42 @@
         </view>
     </view>
     <!-- 消息列表 end -->
-
-    
+ <!-- 消息列表详情 -->
+ <view class="mesDetailBox">
+        <view class="mesDetail">
+            <image src="/imgs/shenqing.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">教职工请假申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/buke.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">补课申请</view>
+                <view class="title2">任课教师：系统管理员</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/yuming.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">域名申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+        <view class="mesDetail">
+            <image src="/imgs/chuguo.png" mode=""/>
+            <view class="mesDetailContent">
+                <view class="title">出国旅游申请</view>
+                <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+            </view>
+            <view class="time">昨天</view>
+        </view>
+    </view>
+    <!-- 消息列表详情 end -->
+  </view>
 
 </scroll-view>
