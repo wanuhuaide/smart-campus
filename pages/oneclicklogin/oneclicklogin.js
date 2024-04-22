@@ -5,9 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      checked: false
   },
-
+  // 修改复选框的选中状态
+  swiftCheck: function () {
+      this.setData({
+          checked: !this.data.checked
+      });
+  },
+  goLogin: function () {
+      wx.navigateTo({
+          url: "/pages/login/login"
+      })
+  },
+  goIndex: function () {
+      //判断用户是否同意协议
+      if (this.data.checked) {
+          wx.switchTab({
+              url: "/pages/index/index"
+          })
+      }else{
+          wx.showToast({
+              title: '请勾选服务!',
+              icon: 'error',
+              duration: 1000 //持续的时间
+          })
+      }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
