@@ -14,4 +14,12 @@
  <!-- 点击登录 -->
  <view class="loginBtn" bindtap='go'>登录</view>
     <!-- 点击登录 -->
+    
+    <!-- 底部其他登录方式 -->
+    <view class="buttomLoginBox">
+        <view class="bl" bindtap='goBrushFace'>
+            <image src="/imgs/shualian.png" mode="" />
+            <view class="otherLoginText">刷脸登录</view>
+        </view>
+      </view>
   </view>
