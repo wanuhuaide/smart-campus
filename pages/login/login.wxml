@@ -11,5 +11,7 @@
  <!-- 账号密码登录提示 -->
  <view class="question">登录遇到问题？</view>
     <!-- 账号密码登录提示 end -->
-
+ <!-- 点击登录 -->
+ <view class="loginBtn" bindtap='go'>登录</view>
+    <!-- 点击登录 -->
   </view>
