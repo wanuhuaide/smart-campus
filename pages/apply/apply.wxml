@@ -96,4 +96,18 @@
         </view>
         <!-- 推荐应用列表 end -->
 
+        <!-- 导航栏 -->
+        <view class="menu">
+            <view id="menuFirst">最新上线</view>
+            <view class="menu1">电子商务</view>
+            <view class="menu1">教学服务</view>
+            <view class="menu1">科研服务</view>
+        </view>
+        <view class="endNewText">
+            最新上线
+        </view>
+        <!-- 导航栏 end -->
+
+        
+
         
