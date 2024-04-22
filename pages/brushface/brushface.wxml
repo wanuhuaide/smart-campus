@@ -12,7 +12,14 @@
         <image src="/imgs/avatar.jpg" mode=""/>
     </view>
     <!-- 头像 end -->
-
+    <view class="name">张皓宁你好</view>
+    <view class="welcome">欢迎登录智慧门户系统,请进行人脸验证</view>
+    <!-- 人脸识别图像文字 end -->
+    <view class="shualian">
+        <image src="/imgs/shualianLogin.png" mode=""/>
+    </view>
+    <view class="jieshao">点击进行人脸识别</view>
+    <!-- 人脸识别图像文字 end -->
     
 
 </view>
