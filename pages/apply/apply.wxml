@@ -43,5 +43,57 @@
         <view style="margin-top: 5px;font-size: 10px;">根据您最近浏览和办理应用为您推荐</view>
         <!-- 推荐应用 end -->
 
+<!-- 推荐应用列表 -->
+<view class="recommendation">
+            <view class="recommendation1">
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">200+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation2">
+                <view class="imageBox">
+                    <image src="/imgs/book.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">图书借鉴</view>
+                    <view style="font-size: 10px;text-align: center;">查看图书借鉴记录</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">300+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation3">
+                <view class="imageBox">
+                    <image src="/imgs/serch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">网上查询</view>
+                    <view style="font-size: 10px;text-align: center;">自助网上缴费</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">1500+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+        </view>
+        <!-- 推荐应用列表 end -->
 
         
