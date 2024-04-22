@@ -35,7 +35,43 @@
         <view class="menu1">学术动态</view>
     </view>
     <!-- 导航栏 end -->
-
+<!-- 通知公告列表 -->
+<view class="announcementList">
+        <view class="announcementList1">
+            <view class="announcementListContent">
+                <view class="announcementListContent1">
+                    关于加强新生入学后校园安全管理规范的通知
+                </view>
+                <view class="announcementListContent2">校园新闻网</view>
+            </view>
+            <view class="announcementList1ImageBox">
+                <image src="/imgs/item1.png" mode="" />
+            </view>
+        </view>
+        <view class="announcementList1">
+            <view class="announcementListContent">
+                <view class="announcementListContent1">
+                    关于开展2023新生入学教育系列培训课程的指导意见
+                </view>
+                <view class="announcementListContent2">信息化管理中心</view>
+            </view>
+            <view class="announcementList1ImageBox" id="announcementList1ImageBox2">
+                <image src="/imgs/item2.png" mode="" />
+            </view>
+        </view>
+        <view class="announcementList1">
+            <view class="announcementListContent">
+                <view class="announcementListContent1">
+                    管理加强新生入学后校园安全管理条例实行的通知
+                </view>
+                <view class="announcementListContent2">教务处</view>
+            </view>
+            <view class="announcementList1ImageBox" id="announcementList1ImageBox3">
+                <image src="/imgs/item1.png" mode="" />
+            </view>
+        </view>
+    </view>
+    <!-- 通知公告列表 end -->
     
 
 </view>
