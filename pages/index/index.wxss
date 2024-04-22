@@ -323,3 +323,77 @@ font-family: PingFangSC-regular;
   height: 30px;
   margin-left: 38px;
 }
+/**通知公告**/
+.announcementBox{
+  width: 100%;
+  height: 300px;
+  margin-top: 15px;
+}
+.menu{
+  height: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu1{
+  font-size: 14px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 600;
+}
+#menuFirst{
+  font-size: 14px;
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 2px solid greenyellow;
+}
+.announcementList{
+  width: 100%;
+  height: 220px;
+}
+.announcementList1{
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  position: relative;
+}
+.announcementListContent{
+  width: 270px;
+  height: 100%;
+  position: absolute;
+}
+.announcementListContent1{
+  font-weight: 600;
+  font-size: 15px;
+}
+.announcementListContent2{
+  font-size: 10px;
+  color: rgb(130, 132, 133);
+  margin-top: 5px;
+}
+.announcementList1ImageBox{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin-left: 290px;
+  background: linear-gradient(0deg, #00C9A7, #4FFBDF);
+  border-radius: 10px;
+}
+.announcementList1ImageBox image{
+  width: 100%;
+  height: 100%;
+}
+#announcementList1ImageBox2{
+  background: linear-gradient(0deg, #D2E6EE, #24819C);
+}
+
+#announcementList1ImageBox3{
+  background: linear-gradient(0deg, #4FFBDF, #008B74);
+}
