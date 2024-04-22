@@ -7,6 +7,11 @@
         <image src="/imgs/fanhui.png" mode=""  bindtap="goLogin" />
     </view>
     <!-- 返回按钮 end -->
+<!-- 头像 -->
+<view class="avatar">
+        <image src="/imgs/avatar.jpg" mode=""/>
+    </view>
+    <!-- 头像 end -->
 
     
 
