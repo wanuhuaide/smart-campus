@@ -39,3 +39,6 @@
             </view>
         </view>
         <!-- 男生女生卡片 end -->
+         <!-- 推荐应用 -->
+         <view class="tuijianApp">推荐应用</view>
+        <!-- 推荐应用 end -->
