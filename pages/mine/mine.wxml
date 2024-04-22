@@ -1,2 +1,20 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <!-- 头部状态栏 -->
+    <view class="myHead">
+        <view class="myHeadSet"  bindtap='goSet'>
+            <image src="/imgs/myset.png" mode="" />
+        </view>
+        <view class="myHeadText">我的</view>
+        <view class="myHeadMes">
+            <image src="/imgs/mymes .png" mode="" />
+        </view>
+
+        <view class="myInfoBox">
+            <view class="name">胡文韬</view>
+            <view class="bumen">信息化管理中心</view>
+            <image src="/imgs/avatar.jpg" mode="" />
+        </view>
+
+    </view>
+    <!-- 头部状态栏 end -->

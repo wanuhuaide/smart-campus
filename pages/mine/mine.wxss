@@ -1,1 +1,269 @@
 /* pages/mine/mine.wxss */
+.myHead{
+  height: 180px;
+  width: 100%;
+  background: linear-gradient(0deg, #f7f7f7cc, #75eeda);
+  position: relative;
+}
+.myHead image{
+  width: 20px;
+  height: 20px;
+}
+.myHeadSet{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 60px;
+  left: 17.5px;
+}
+.myHeadText{
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 157.5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.myHeadMes{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  left: 337.5px;
+}
+.myInfoBox{
+  width: 100%;
+  height: 50px;
+  margin-top: 130px;
+  position: absolute;
+}
+.name{
+  font-size: 18px;
+  font-weight: 600;
+  left: 17.5px;
+  position: absolute;
+}
+.bumen{
+  font-size: 11px;
+  font-weight: 600;
+  left: 17.5px;
+  position: absolute;
+  top: 30px;
+  color: rgba(122, 124, 121, 0.699);
+}
+.myInfoBox image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  left: 307.5px;
+}
+.box {
+  width: 350px;
+  height: 680px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.headBox {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #FEF7FF;
+}
+
+.headBoxTitle {
+  height: 44px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 44px;
+}
+
+.searchBox {
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #FEF7FF;
+}
+
+.searchBox image {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-left: 5px;
+}
+
+.searchBox input {
+  height: 25px;
+  float: left;
+  font-size: 12px;
+  width: 160px;
+  color: rgb(74, 75, 75);
+  margin-left: 8px;
+}
+
+.headBoxRight {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headBoxRight image {
+  width: 23px;
+  height: 23px;
+}
+
+.twoCardBox {
+  width: 350px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card1,
+.card2 {
+  width: 160px;
+  height: 90px;
+  background-color: lightblue;
+  position: relative;
+  border-radius: 15px;
+  color: white;
+}
+
+.card1 {
+  background: linear-gradient(-90deg, #FF9671, #F9F871);
+}
+
+.card2 {
+  background: linear-gradient(-90deg, #0081CF, #4FFBDF);
+}
+
+#cardImage1,
+#cardImage2 {
+  position: absolute;
+}
+#cardImage1{
+  top: 20px;
+  left: 10px;
+}
+#cardImage2 {
+  top: 20px;
+}
+
+.cardContent1 {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 80px;
+  top: 25px;
+}
+
+.cardContent2 {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 80px;
+  top: 25px;
+}
+
+.tuijianApp{
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.mesDetailBox{
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.mesDetail{
+  width: 100%;
+  height: 60px;
+}
+.mesDetail image{
+  width: 40px;
+  height: 40px;
+  margin-top: 12.5px;
+  float: left;
+}
+.mesDetailContent{
+  width: 200px;
+  height: 60px;
+  float: left;
+  margin-left: 18px;
+}
+.title{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "宋体";
+  margin-top: 15px;
+}
+.title2{
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(134, 134, 130);
+}
+.time{
+  width: 20px;
+  font-size: 10px;
+  color: rgb(134, 134, 130);
+  float: left;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+.appBox{
+  width: 100%;
+  height: 130px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.appBoxList{
+  width: 80px;
+  height: 50px;
+  text-align: center;
+}
+.appBoxList image{
+  width: 25px;
+  height: 25px;
+}
+.dianzijiaowu{
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.appBox2{
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appBox2List{
+  width: 80px;
+  height: 50px;
+  text-align: center;
+}
+.appBox2List image{
+  width: 25px;
+  height: 25px;
+}
