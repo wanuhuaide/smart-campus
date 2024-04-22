@@ -16,3 +16,22 @@
 </view>
 <!-- 头部搜索框 end -->
 
+<view class="box">
+    <!-- banner -->
+    <view class="banner">
+        <image src="/imgs/findationimgs/top.png" mode="" />
+        <view class="bannerContent">
+            <view class="bannerTitle">发现新鲜事</view>
+            <view class="bannerText">校内各院系各部门重要新闻汇报随时随地查看</view>
+        </view>
+    </view>
+    <!-- banner end -->
+
+    <!-- 导航栏 -->
+    <view class="menu">
+        <view id="menuFirst">通知公告</view>
+        <view class="menu1">学校新闻</view>
+        <view class="menu1">综合信息</view>
+        <view class="menu1">学术动态</view>
+    </view>
+    <!-- 导航栏 end -->
