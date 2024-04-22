@@ -7,7 +7,16 @@ Page({
   data: {
 
   },
-
+  goOneClickLogin:function() {
+      wx.navigateTo({
+          url: "/pages/oneclicklogin/oneclicklogin"
+      })
+  },
+  goLogin:function() {
+      wx.navigateTo({
+          url: "/pages/login/login"
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
