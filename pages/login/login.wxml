@@ -8,4 +8,8 @@
         <view class="topRight" bindtap='goOneClickLogin'>验证码登录</view>
     </view>
     <!-- 顶部 end -->
+ <!-- 账号密码登录提示 -->
+ <view class="question">登录遇到问题？</view>
+    <!-- 账号密码登录提示 end -->
+
   </view>
