@@ -109,3 +109,58 @@
             </view>
         </view>
         <!-- 应用列表-我的收藏 end -->
+        
+
+    
+
+       
+        
+
+      
+
+        
+
+        <!-- 我的搜藏 -->
+        <view class="tuijianApp">我的信息</view>
+        <!-- 我的搜藏 end -->
+
+        <!-- 应用列表-我的信息 -->
+        <view class="appBox">
+            <view class="appBoxList">
+                <image src="/imgs/jiaowu.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">教务系统</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xuefei.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学费缴纳</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xingbiao.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">星标课程</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xuesheng.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学生科研</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/zaixian.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">在线选课</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/zhuanye.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">专业设置</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xueba.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学霸名单</view>
+            </view>
+            <view class="appBoxList">
+                <image src="/imgs/xinxi.png" mode=""/>
+                <view style="font-size: 11px;font-weight: 600;">学生信息</view>
+            </view>
+        </view>
+        <!-- 应用列表-我的信息 end -->
+
+    </view>
+
+</scroll-view>
