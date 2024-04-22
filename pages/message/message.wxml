@@ -15,6 +15,31 @@
         </view>
     </view>
     <!-- 头部搜索框 end -->
+    <view class="box">
+        <!-- 消息列表 -->
+    <view class="mesListBox">
+        <view class="mesList">
+            <image src="/imgs/daiban.png" mode=""/>
+            <view class="mesListText">待办</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/daiyue.png" mode=""/>
+            <view class="mesListText">待阅</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/yiban.png" mode=""/>
+            <view class="mesListText">已办</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/yiyue.png" mode=""/>
+            <view class="mesListText">已阅</view>
+        </view>
+        <view class="mesList">
+            <image src="/imgs/xitong.png" mode=""/>
+            <view class="mesListText">系统</view>
+        </view>
+    </view>
+    <!-- 消息列表 end -->
 
     
 
