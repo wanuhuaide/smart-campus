@@ -10,13 +10,13 @@
 
     <!-- 头像 -->
     <view class="avatar">
-        <image src="/imgs/avatar.jpg" mode="" />
+        <image src="/imgs/benren.png" mode="" />
     </view>
     <!-- 头像 end -->
 
     <!-- 登录号码 -->
     <view class="numberContent">
-        <view class="tel">186****6127</view>
+        <view class="tel">173****8725</view>
         <view class="yidong">中国联通提供认证服务</view>
     </view>
     <!-- 登录号码 end -->
