@@ -1,2 +1,13 @@
 <!--pages/brushface/brushface.wxml-->
-<text>pages/brushface/brushface.wxml</text>
+
+<head></head>
+<view class="box">
+    <!-- 返回按钮 -->
+    <view class="fanhui">
+        <image src="/imgs/fanhui.png" mode=""  bindtap="goLogin" />
+    </view>
+    <!-- 返回按钮 end -->
+
+    
+
+</view>
