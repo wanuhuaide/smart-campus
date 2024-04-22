@@ -14,17 +14,15 @@
     "list":[
       {
         "pagePath":"pages/list/list",
-          "text":"首页"
+          "text":"首页",
+          "iconPath": "./imgs/appimgs/email.png",
+          "selectedIconPath": "./imgs/appimgs/email.png"
         },
       {
         "pagePath":"pages/cate/cate",
-        "text":"应用"
-      },
-      {"pagePath": "pages/my/my",
-      "text": "第四"},
-      {
-        "pagePath": "pages/shop/shop",
-        "text": "第五"
+        "text":"应用",
+        "iconPath": "./imgs/appimgs/email.png",
+        "selectedIconPath": "./imgs/appimgs/email.png"
       }
     ]
   },

@@ -1,70 +1,129 @@
 <!--index.wxml-->
 <!--标题-->
 <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  
+
 <!--大方框-->
 <view class="daohang">
-<image src="../../imgs/1.png" mode=""/>
-<view class="daohangword">
-<view class="daohangt">智慧门户网站</view>
-<view class="daohangwordone" style="margin-top: 20rpx;">学校概况 办事指南等功能</view>
-<view class="daohangwordone" style="margin-bottom: 20rpx;">办事快捷 办事实时查看消息</view>
-<view class="daohangb">去了解</view>
-</view>
-<!--按钮-->
-<view class="flexbox">
-<view class="flexitem yellow">
-<image src="../../imgs/school.svg" mode=""/>
-<view>学校概况</view>
-</view>
-<view class="flexitem purple ">
-<image src="../../imgs/score.svg" mode=""/>
-<view>成绩查询</view></view>
-<view class="flexitem red">
-<image src="../../imgs/order.svg" mode=""/>
-<view>缴费入口</view></view>
-<view class="flexitem green">
-<image src="../../imgs/danger.svg" mode=""/>
-<view>学校预警</view></view>
-<view class="flexitem blue">
-<image src="../../imgs/all.svg" mode=""/>
-<view>全部</view></view>
-</view>
+  <image src="../../imgs/1.png" mode="" />
+  <view class="daohangword">
+    <view class="daohangt">智慧门户网站</view>
+    <view class="daohangwordone" style="margin-top: 20rpx;">学校概况 办事指南等功能</view>
+    <view class="daohangwordone" style="margin-bottom: 20rpx;">办事快捷 办事实时查看消息</view>
+    <view class="daohangb">去了解</view>
+  </view>
+  <!--按钮-->
+  <view class="flexbox">
+    <view class="flexitem yellow">
+      <image src="../../imgs/school.svg" mode="" />
+      <view>学校概况</view>
+    </view>
+    <view class="flexitem purple ">
+      <image src="../../imgs/score.svg" mode="" />
+      <view>成绩查询</view>
+    </view>
+    <view class="flexitem red">
+      <image src="../../imgs/order.svg" mode="" />
+      <view>缴费入口</view>
+    </view>
+    <view class="flexitem green">
+      <image src="../../imgs/danger.svg" mode="" />
+      <view>学校预警</view>
+    </view>
+    <view class="flexitem blue">
+      <image src="../../imgs/all.svg" mode="" />
+      <view>全部</view>
+    </view>
+  </view>
 </view>
 <!--左右方框-->
 <view class="flexboxone">
-<view class="flexitemone">
-<image src="../../imgs/man.png" mode=""/>
-<view class="titletext">
-<view>待办事项</view>
-<view>我的代办事项</view>
-</view>
-</view>
-<view class="flexitemone">
-<image src="../../imgs/woman.png" mode=""/>
-<view class="titletextright">
-<view>待办指南</view>
-<view>待办指南汇总</view>
-</view>
-</view>
+  <view class="flexitemone">
+    <image src="../../imgs/man.png" mode="" />
+    <view class="titletext">
+      <view>待办事项</view>
+      <view>我的代办事项</view>
+    </view>
+  </view>
+  <view class="flexitemone">
+    <image src="../../imgs/woman.png" mode="" />
+    <view class="titletextright">
+      <view>待办指南</view>
+      <view>待办指南汇总</view>
+    </view>
+  </view>
 </view>
 <!--通知-->
 <view class="noticecircle">
-<image src="../../imgs/audio.svg" mode=""/>
+  <image src="../../imgs/audio.svg" mode="" />
 </view>
 <view class="noticeword">关于系统上线的运行时间</view>
 <!--第二个大方框-->
 <view class="daohangpart2">
-<image src="../../imgs/newfeel.png" mode=""/>
-<view class="daohangwordpart2">
-<view class="daohangtpart2">办事指南新体验</view>
-<view class="daohangwordonepart2" style="margin-top: 20rpx;">新增办事指南和消息栏目</view>
-<view class="daohangwordonepart2" style="margin-bottom: 20rpx;">办事更便捷</view>
-<view class="daohangbpart2">去了解
-<image src="../../imgs/messageimgs/5.png" mode=""/></view>
-</view>
+  <image src="../../imgs/newfeel.png" mode="" />
+  <view class="daohangwordpart2">
+    <view class="daohangtpart2">办事指南新体验</view>
+    <view class="daohangwordonepart2" style="margin-top: 20rpx;">新增办事指南和消息栏目</view>
+    <view class="daohangwordonepart2" style="margin-bottom: 20rpx;">办事更便捷</view>
+    <view class="daohangbpart2">去了解
+      <image src="../../imgs/messageimgs/5.png" mode="" />
+    </view>
+  </view>
 </view>
 <!--文字-->
 <view class="pushtitle">推荐应用</view>
 <view class="pushword">根据您最近浏览和办理应用为您推荐
 </view>
 <!--轮播图-->
+<view class="recommendation">
+            <view class="recommendation1">
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">200+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation2">
+                <view class="imageBox">
+                    <image src="/imgs/book.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">图书借鉴</view>
+                    <view style="font-size: 10px;text-align: center;">查看图书借鉴记录</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">300+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation3">
+                <view class="imageBox">
+                    <image src="/imgs/serch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">网上查询</view>
+                    <view style="font-size: 10px;text-align: center;">自助网上缴费</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">1500+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+        </view>
+</scroll-view>
