@@ -38,4 +38,10 @@
         </view>
         <!-- 男生女生卡片 end -->
 
-       
+        <!--  推荐应用  -->
+        <view style="font-size: 18px;font-weight: 800;margin-top: 20px;">推荐应用</view>
+        <view style="margin-top: 5px;font-size: 10px;">根据您最近浏览和办理应用为您推荐</view>
+        <!-- 推荐应用 end -->
+
+
+        
