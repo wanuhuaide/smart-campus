@@ -1,2 +1,45 @@
 <!--pages/set/set.wxml-->
-<text>pages/set/set.wxml</text>
+
+<head></head>
+<view class="box">
+
+    <!-- 页面头部 -->
+    <view class="topBox">
+        <image src="/imgs/fanhui.png" mode=""  bindtap='goMine' />
+        <view class="setText">设置</view>
+    </view>
+    <!-- 页面头部 end -->
+
+    <!-- 设置列表 -->
+    <view class="setList">
+        <view class="list">
+            <image src="/imgs/tongzhi.png" mode=""/>
+            <view class="setTitle">新消息通知</view>
+        </view>
+        <view class="list">
+            <image src="/imgs/banben.png" mode=""/>
+            <view class="setTitle">版本更新</view>
+        </view>
+        <view class="list">
+            <image src="/imgs/qingchu.png" mode=""/>
+            <view class="setTitle">清除缓存</view>
+        </view>
+        <view class="list">
+            <image src="/imgs/xiugai.png" mode=""/>
+            <view class="setTitle">修改密码</view>
+        </view>
+        <view class="list">
+            <image src="/imgs/guanyu.png" mode=""/>
+            <view class="setTitle">关于我们</view>
+        </view>
+    </view>
+    <!-- 设置列表 end -->
+
+    <!-- 退出登录 -->
+    <view class="tuichuBox">
+        <image src="/imgs/tuichu.png" mode="" bindtap='goLogin' />
+        <view class="tuichu" bindtap='goLogin'>退出登录</view>
+    </view>
+    <!-- 退出登录 end -->
+
+</view>
