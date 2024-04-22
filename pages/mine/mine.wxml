@@ -11,7 +11,7 @@
         </view>
 
         <view class="myInfoBox">
-            <view class="name">胡文韬</view>
+            <view class="name">张皓宁</view>
             <view class="bumen">信息化管理中心</view>
             <image src="/imgs/avatar.jpg" mode="" />
         </view>
