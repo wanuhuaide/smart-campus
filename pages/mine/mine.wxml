@@ -42,3 +42,31 @@
          <!-- 推荐应用 -->
          <view class="tuijianApp">推荐应用</view>
         <!-- 推荐应用 end -->
+<!-- 推荐列表详情 -->
+<view class="mesDetailBox">
+            <view class="mesDetail">
+                <image src="/imgs/yiban.png" mode="" />
+                <view class="mesDetailContent">
+                    <view class="title">教职工请假申请</view>
+                    <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+                </view>
+                <view class="time">昨天</view>
+            </view>
+            <view class="mesDetail">
+                <image src="/imgs/qingjia.png" mode="" />
+                <view class="mesDetailContent">
+                    <view class="title">教职工请假申请</view>
+                    <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+                </view>
+                <view class="time">昨天</view>
+            </view>
+            <view class="mesDetail">
+                <image src="/imgs/xitong.png" mode="" />
+                <view class="mesDetailContent">
+                    <view class="title">教职工请假申请</view>
+                    <view class="title2">工作部门：系统维护 请假申请人：xxx</view>
+                </view>
+                <view class="time">昨天</view>
+            </view>
+        </view>
+        <!-- 消息列表详情 end -->
