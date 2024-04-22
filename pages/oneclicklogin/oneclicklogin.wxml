@@ -1,2 +1,38 @@
 <!--pages/oneclicklogin/oneclicklogin.wxml-->
-<text>pages/oneclicklogin/oneclicklogin.wxml</text>
+
+<head></head>
+<view class="box">
+    <!-- 返回按钮 -->
+    <view class="fanhui">
+        <image src="/imgs/fanhui.png" mode="" bindtap="goLogin" />
+    </view>
+    <!-- 返回按钮 end -->
+
+    <!-- 头像 -->
+    <view class="avatar">
+        <image src="/imgs/avatar.jpg" mode="" />
+    </view>
+    <!-- 头像 end -->
+
+    <!-- 登录号码 -->
+    <view class="numberContent">
+        <view class="tel">186****6127</view>
+        <view class="yidong">中国联通提供认证服务</view>
+    </view>
+    <!-- 登录号码 end -->
+
+    <view class="loginBtn" bindtap="goIndex">登录</view>
+
+    <view class="swiftuser" bindtap="goLogin">切换账号</view>
+
+    <view class="otheridea" bindtap="goLogin">通过其他方式登录</view>
+
+    <!-- 服务条款 -->
+    <view class="checkBox">
+        <checkbox id="chekboxok" value="cc" checked="{{checked}}" bindtap="swiftCheck" />
+        <view class="checkText">登录即代表同意<text style="color: rgba(37, 150, 240, 1);">中国移动认证服务条款</text>
+            和 <text style="color: rgba(37, 150, 240, 1);">应用自定义服务条款一、应用自定义服务条款二</text> 并使用本机号码登录.</view>
+    </view>
+    <!-- 服务条款 end -->
+
+</view>

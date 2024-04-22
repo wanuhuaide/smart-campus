@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/message/message",
     "pages/login/login",
+    "pages/message/message",
+    
     "pages/index/index",
     
     "pages/apply/apply",

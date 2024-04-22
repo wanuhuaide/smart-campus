@@ -1,1 +1,131 @@
 /* pages/oneclicklogin/oneclicklogin.wxss */
+.box {
+  width: 350px;
+  height: 488px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.fanhui {
+  width: 100%;
+  height: 25px;
+}
+
+.fanhui image {
+  width: 25px;
+  height: 25px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 60px auto;
+}
+
+.avatar image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.numberContent {
+  width: 200px;
+  height: 57px;
+  margin: -40px auto;
+}
+
+.tel {
+  height: 40px;
+  line-height: 40px;
+  color: rgb(16, 16, 16);
+  font-size: 28px;
+  text-align: center;
+}
+
+.yidong {
+  height: 17px;
+  line-height: 17px;
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+  text-align: center;
+}
+
+.loginBtn {
+  width: 95%;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 20px;
+  background-color: rgba(37, 150, 240, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.swiftuser {
+  width: 65px;
+  height: 23px;
+  line-height: 23px;
+  color: rgba(32, 155, 253, 1);
+  font-size: 14px;
+  margin: -40px auto;
+  font-weight: 600;
+}
+
+.otheridea {
+  width: 129px;
+  height: 23px;
+  line-height: 23px;
+  color: rgb(121, 121, 121);
+  font-size: 15px;
+  margin: 280px auto;
+}
+
+.checkBox {
+  width: 100%;
+  height: 40px;
+  margin: -270px auto;
+}
+
+/* 未选中的样式 */
+checkbox .wx-checkbox-input {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+}
+
+/* 选中后的样式 */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border: none;
+  background: rgba(37, 150, 240, 1);
+}
+
+/* 选中后的勾子样式 */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30rpx;
+  color: #FFF;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+#chekboxok {
+  float: left;
+  margin-top: -5px;
+}
+
+.checkText {
+  width: 327px;
+  height: 40px;
+  line-height: 17px;
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+  float: left;
+}
