@@ -1,1 +1,39 @@
-/* pages/apply/apply.wxss */
+.box {
+  width: 350px;
+  height: 680px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.headBox {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #FEF7FF;
+}
+
+.headBoxTitle {
+  height: 44px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 44px;
+}
+
+.searchBox {
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #FEF7FF;
+}
+
+.searchBox image {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-left: 5px;
+}

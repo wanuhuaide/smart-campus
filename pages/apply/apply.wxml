@@ -1,2 +1,17 @@
-<!--pages/apply/apply.wxml-->
-<text>pages/apply/apply.wxml</text>
+<!-- 自定义状态栏 -->
+
+<head></head>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <!-- 头部搜索栏 -->
+    <view class="headBox">
+        <view class="headBoxTitle">应用</view>
+        <view class="searchBox">
+            <image src="/imgs/search.png" mode="" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="false" />
+        </view>
+        <view class="headBoxRight">
+            <image src="/imgs/scode.png" mode="" />
+            <image src="/imgs/m.png" mode="" />
+        </view>
+    </view>
+    <!-- 头部搜索栏 end -->
